@@ -1,13 +1,21 @@
-const jsonServer = require("json-server");
+const jsonServer = require('json-server');
+const cors = require('cors');
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
-const cors = require("cors");
 
-server.use(cors()); // This is must!
+// Enable CORS for all origins
+server.use(cors());
+
+// Other middlewares
 server.use(middlewares);
+server.use(jsonServer.bodyParser);
+
+// Mount API
 server.use(router);
 
-server.listen(10000, () => {
-  console.log("JSON Server is running on port 10000");
+// Start server
+const PORT = process.env.PORT || 10000;
+server.listen(PORT, () => {
+  console.log(`JSON Server is running at http://localhost:${PORT}`);
 });
