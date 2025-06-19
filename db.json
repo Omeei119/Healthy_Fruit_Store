@@ -8,52 +8,10 @@
       "role": "admin"
     },
     {
-      "id": "44ca",
-      "name": "user1",
-      "emailid": "user@gmail.com",
-      "password": "12345",
-      "role": "user"
-    },
-    {
-      "id": "0ffc",
-      "name": "Narendra ",
-      "emailid": "narendra@gmail.com",
-      "password": "12345",
-      "role": "user"
-    },
-    {
-      "id": "68d4",
-      "name": "Omeei",
-      "emailid": "omeei119@gmail.com",
-      "password": "0987654321",
-      "role": "user"
-    },
-    {
-      "id": "0296",
-      "name": "Onkar Gaikwad",
-      "emailid": "gaikwado585@gmail.com",
-      "password": "12345",
-      "role": "admin"
-    },
-    {
-      "id": "7c00",
-      "name": "shivam",
-      "emailid": "shivam@gmail.com",
-      "password": "908070",
-      "role": "user"
-    },
-    {
       "id": "a2a6",
       "name": "ddd",
       "emailid": "12345@gmail.com",
       "password": "12345",
-      "role": "user"
-    },
-    {
-      "id": "fb1b",
-      "name": "Pankaj",
-      "emailid": "pj123@gmail.com",
-      "password": "121314",
       "role": "user"
     }
   ],
