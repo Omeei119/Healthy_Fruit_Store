@@ -2,12 +2,12 @@
   "name": "fruit-store-backend",
   "version": "1.0.0",
   "description": "JSON Server for Fruit Store Backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.4"
   }
 }

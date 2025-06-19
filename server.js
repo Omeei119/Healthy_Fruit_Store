@@ -4,10 +4,10 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const cors = require('cors');
 
-server.use(cors()); // Enable CORS
+server.use(cors());
 server.use(middlewares);
 server.use(router);
 
 server.listen(10000, '0.0.0.0', () => {
-  console.log('JSON Server is running on port 10000');
+  console.log('JSON Server running on port 10000');
 });
