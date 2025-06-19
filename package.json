@@ -4,7 +4,7 @@
   "description": "JSON Server for Fruit Store Backend",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --port 10000 --host 0.0.0.0 --middlewares cors.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
